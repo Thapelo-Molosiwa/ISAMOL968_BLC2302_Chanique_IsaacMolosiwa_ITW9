@@ -1,3 +1,64 @@
 body{
-    background-color: aqua;
+    background-color: rgb(211, 207, 207);
 }
+
+#menu{
+    position: fixed;
+    right: 10px;
+    font-size: large;
+    border-width: 20px;
+    border-radius: 35px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+#self{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-style: bold;
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background-image: url(https://topresumetemplate.com/uploads/blog_image/blog_feat_48.webp);
+    fill-opacity: 0.3px;
+}
+
+#container{
+    border-style: solid;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 300px;
+    clip-path: circle();
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+
+}
+
+#name{
+    font-size: x-large;
+    font-family: Copperplate Gothic Light;
+    position: relative;
+    bottom: 120px;
+    left: 25PX;
+}
+
+footer{
+    background-color: black;
+    
+}
+
+h4{
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
+
