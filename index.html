@@ -33,9 +33,10 @@
                 <aside>
                       <div id="left">
                             <div id="image">
+                                <!---Responsive image/picture for different -->
                                 <picture>
                                     <source srcset="images\img3.jpg" media="(max-width:500px)">
-                                    <source srcset="images\img2.jpg" media="(max-width:500px)">
+                                    <source srcset="images\img2.jpg" media="(max-width:1200px)">
                                   <img src="images/img1.jpg" alt="My profile picture">
                                 </picture>
                             </div>
@@ -54,6 +55,42 @@
             <!--resposive form-->
             <form action="https://formsubmit.co/0678025126p@gmail.com" method="post" >
                 <h4 id="Enquiry">Enquiry</h4>
+                <p>Please select communication type.</p>
+                  <div id="radio">
+                      <input type="radio" name="Enquiry" value="E-Mail" required>
+                      <label for="communication">E-Mail</label>
+                      <input type="radio" name="Enquiry" value="Contacts" checked>
+                      <label for="communication">Contacts</label>
+                  </div>
+
+                  <div id="namee">
+                    <!--flexbox-->
+                    <div id="flex-container">
+                        <div id="namee">
+                                 <label for="name">Name</label>
+                                 <input type="Name" id="mail" name="user_name" required>
+                               </div>
+             
+                               <div id="surname">
+                                 <label for="surname">Surename</label>
+                                 <input type="Surname" id="Surename" name="user_Surname" required>
+                               </div>
+             
+                               <div id="Email">
+                                 <label for="mail">Email:</label>
+                                 <input type="mail" id="mail" name="user_mail" required>
+                               </div>
+             
+                               <div id="contact">
+                                 <label for="mail">Contacts</Details>:</label>
+                                 <input type="contacts" id="Contacts" name="Contact Number" required>
+                     </div>
+
+                  <div id="type">
+                    <textarea name="user_message" id="msg" maxlength="50" placeholder="Type here..."></textarea>
+                    <input type="submit" target="_blank" >
+                  </div>
+            </form>      
         </footer>    
     
         </body>
