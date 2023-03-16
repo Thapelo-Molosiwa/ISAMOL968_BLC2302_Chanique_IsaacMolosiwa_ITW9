@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        a{color: white;}
+        a{color: white;
+        text-decoration: none;}
     </style>
      <link rel="stylesheet" type="text/css" href="stylesheet.css">
      <script src="https://kit.fontawesome.com/b832cc649b.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
+
   <div id="container">
         <body>
             <header>
@@ -29,9 +31,10 @@
                        </div>
                </div>
             </header>
+
             <div id="content">
                 <aside>
-                      <div id="left">
+                       <div id="left">
                             <div id="image">
                                 <!---Responsive image/picture for different -->
                                 <picture>
@@ -45,10 +48,100 @@
                                     Isaac Thapelo Molosiwa
                                 </h1>
                             </div>
+                            <div id="tag">
+                                <h1>Web Developer</h1>
+                            </div>
+                           
                       </div>
                 </aside>
-                <article>
 
+                <article>
+                    <!---Flex-container2-->
+                   <div id="context">
+                        <div id="contacts">
+                           <h2 id="Contacts">Contacts</h2>
+                           <div id="flex-container2">
+                            <div id="number">
+                             <p class="fa-solid fa-phone"> (+27)72-892-1928 / (+27)67-802-5126</p>
+                            </div>
+          
+                            <div id="email">
+                              <p class="fa-solid fa-envelope"> 0728921928p@gmail.com</p>
+                            </div>
+          
+                            <div id="whatsapp">
+                              <p class="fa-brands fa-whatsapp"> (+27)72-892-1928</p>
+                            </div>
+          
+                            <div id="facebook">
+                              <p class="fa-brands fa-facebook"><a href="https://web.facebook.com/profile.php?id=100090521830223" target="_blank"> Facebook</a></p>
+                            </div>
+                            <div id="github">
+                                 <p class="fa-brands fa-github"><a href="https://github.com/Thapelo-Molosiwa" target="_blank"> github</a></p>
+                            </div>
+                        </div>
+    
+
+                        <hr width="80%" color="black" align="center">
+
+                        </div>
+                 <!--right and left container-->
+                    <div id="grid-container">
+                          <!---motivational letter-->
+                        <div id="motivation">
+                            <h2>Motivational Letter</h2>
+                            <p>
+                                Hi,<br>
+
+                         I am writing to express my interest in applying for the Web-Design occupation.<br> As a highly motivated individual with a passion for Front-End development, I am eager to take on the challenges that this program offers.<br>
+
+                         Throughout my academic career, I have pursued a rigorous course of study in Software Engineering and have consistently challenged myself to achieve my goals.<br> My dedication to my studies has earned me Top leaner, which I am particularly proud of.<br>
+
+                         Moreover, I have gained valuable experience through Design Thinking, which has allowed me to develop Problem-solving abilities. I have learned to work effectively both independently and as part of a team, to think critically and creatively, and to communicate complex ideas clearly and concisely.<br>
+
+                         I am confident that the [Program] at [University] will provide me with the knowledge and skills I need to achieve my long-term career goals.<br> I am particularly impressed with the program's focus on being innovative and believe that this will allow me to gain a deeper understanding of being a Software engineer.<br>
+
+                         I am also excited about the opportunity to engage with the diverse community Tech geeks.<br> I look forward to contributing to the intellectual and cultural life of the candidate and to learning from my collegue.<br>
+
+                         Thank you for considering my application. I am confident that my passion for this opportunity, my academic achievements, and my commitment to excellence make me a strong candidate for this job opportunity.
+
+                         Sincerely,
+
+                         Isaac Molosiwa
+                            </p>
+                        </div>
+                    
+                       <div id="left">
+                            <h2 id="Education">Education</h2>
+                            <p>
+                            <ul>
+                                <li>2014 - Matriculated at Boikagong Secondary School.</li>
+                                <li>2023 - Software Engineering at <a href="https://www.codespace.co.za/" target="_blank">CODE SPACE.</a></li>
+                            </ul>
+
+                           <h2>Qualification</h2> 
+                           <ul>
+                            <li>Web-Designer at<a href="https://www.codespace.co.za/" target="_blank"> CODE SPACE.</a></li>
+                           </ul>
+                           
+
+                            <h2 id="Experience">Experience</h2>
+                            <ul>
+                                <li>2015/June to 2016/Jan - Merchandiser at Boxer Superstore.</li>
+                                <li>2018/Aug to 2019/Feb - Sales Executive at Stock Marker College.</li>
+                                <li>2021/Oct to 2022/Jul - General worker at Paardekraal Primary School.</li>
+                            </ul>
+
+                            <h2 id="Skills">Skills</h2>
+                            <ul>
+                                <li>Computer proficient.</li>
+                                <li>Oral and written communication skills.</li>
+                                <li>Teamwork.</li>
+                                <li>Problem-solving abilities.</li>
+                            </ul>  
+                       </div>
+                    </div>
+                   </div>
                 </article>
             </div>
         <footer> 
@@ -63,10 +156,9 @@
                       <label for="communication">Contacts</label>
                   </div>
 
-                  <div id="namee">
                     <!--flexbox-->
                     <div id="flex-container">
-                        <div id="namee">
+                               <div id="namee">
                                  <label for="name">Name</label>
                                  <input type="Name" id="mail" name="user_name" required>
                                </div>
@@ -84,7 +176,8 @@
                                <div id="contact">
                                  <label for="mail">Contacts</Details>:</label>
                                  <input type="contacts" id="Contacts" name="Contact Number" required>
-                     </div>
+                               </div>
+                    </div>
 
                   <div id="type">
                     <textarea name="user_message" id="msg" maxlength="50" placeholder="Type here..."></textarea>
