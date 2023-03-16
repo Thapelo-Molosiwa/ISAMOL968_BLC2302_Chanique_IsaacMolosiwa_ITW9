@@ -209,6 +209,7 @@ a:hover {
 
    #container{
     border-style: none;
+    background-color: white;
     float: none;
     display: grid, none;
     
