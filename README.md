@@ -26,3 +26,7 @@ Experience - 2015/June to 2016/Jan - Merchandiser at Boxer Superstore.
 Picture optimizing
 Making my resume fit into all kinds of screens and be responsive
 making a responsive web/Resume
+
+heres my Figma link : https://www.figma.com/file/mDyXQsJUTJcO7Jtyt6eAiP/Diagram---ITW_Figma-Resume-Templates-(Copy)?node-id=0%3A1&t=xja8tpQwblwfaMMm-1
+
+my GitHub link : https://github.com/Thapelo-Molosiwa
