@@ -1,16 +1,17 @@
 body{
-    background-color: rgb(211, 207, 207);
+    background-color: rgb(143, 140, 140);
 }
 
 #menu{
     position: fixed;
     right: 10px;
     font-size: large;
-    border-width: 20px;
-    border-radius: 35px;
+    border-width: 5px;
+    border-radius: 20px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
     background-color: rgb(0, 0, 0);
+    z-index: 1;
 }
 
 #self{
@@ -18,7 +19,24 @@ body{
     position: relative;
     top: 30px;
     font-style: bold;
-    color: white;
+    color: #ffffff;
+}
+
+#tag{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    bottom: 130px;
+    left: 150px;
+}
+
+li{
+    font-size: larger;
+}
+
+p{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header{
@@ -28,17 +46,46 @@ header{
     fill-opacity: 0.3px;
 }
 
+#left{
+    float: left;
+    width: 500px;
+}
+
+#motivation{
+   text-align: center;
+
+}
+
+#grid-container{
+    display: grid;
+   grid-template-columns: 1fr 1fr ;
+   gap: 100px;
+}
+
 #container{
     border-style: solid;
     width: 100%;
     height: auto;
 }
 
+#contacts{
+    background: linear-gradient( to right , #ffff ) ;
+    clear: both;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+ 
+}
+
+hr{
+    position: relative;
+    top: 70px;
+}
+
 img {
     position: relative;
     width: 300px;
     clip-path: circle();
-    position: relative;
     bottom: 100px;
     left: 100px;
 
@@ -54,7 +101,7 @@ img {
 
 footer{
     background-color: black;
-    
+    clear: both;
 }
 
 h4{
@@ -63,10 +110,22 @@ h4{
     text-align: center;
 }
 
-p{
-    color: white;
-    font-size: large;
-}
+#flex-container2 {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  #flex-container2 > div {
+    
+    height: 20px;
+    margin: 5px;
+    font-size: 10px;
+    color: rgb(5, 5, 5);
+  }
+  
+
+
 
 form{
     color: white;
@@ -90,3 +149,19 @@ form{
     color: rgb(255, 255, 255);
   }
   
+  #contacts{
+
+  }
+
+  /*mouse over h2*/
+  h2:hover{
+    font-size: 28px;
+  }
+
+/* mouse over link */
+a:hover {
+    color: #3450cc;
+}
+
+
+/* Responsive design */
