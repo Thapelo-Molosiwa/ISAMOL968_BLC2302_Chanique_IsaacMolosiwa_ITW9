@@ -46,10 +46,7 @@ header{
     fill-opacity: 0.3px;
 }
 
-#left{
-    float: left;
-    width: 500px;
-}
+
 
 #motivation{
    text-align: center;
@@ -74,6 +71,7 @@ header{
     position: relative;
     bottom: 100px;
     text-align: center;
+    font-weight: 150px;
  
 }
 
@@ -164,4 +162,179 @@ a:hover {
 }
 
 
-/* Responsive design */
+/* Styles for devices with a maximum width of 600px */
+@media (max-width: 626px) {
+
+     body{
+      font-size: 16px;
+      padding: 10px;
+      width: 100%;
+
+      background-color: #ffffff;
+
+    }
+
+    #contacts{
+        display: contents;
+        font-size:small;
+        
+    }
+
+
+    #flex-container2{
+        font-size: x-small;
+    }
+
+   #name{
+    font-size: small;
+    text-align: center;
+   }
+
+   #header{
+    clear: both;
+    width: 100%;
+   }
+
+   #menu{
+    font-size: small;
+    display: none;
+   }
+
+   #tag{
+    font-size: small;
+    position: relative;
+    left: 235px;
+    width: ;
+   }
+
+   #container{
+    border-style: none;
+    float: none;
+    display: grid, none;
+    
+   }
+
+   #enquiry{
+    display: flex;
+   }
+
+   hr{
+    display: none;
+   }
+
+   #grid-container{
+    display: contents;
+    
+
+   }
+
+   img{
+    position: relative;
+    right: 25px;
+   }
+
+   a{
+    color: #3450cc;
+   }
+
+   #self{
+    font-size: small;
+    position: relative;
+    bottom: 150px;
+   }
+
+
+
+   
+  }
+
+
+
+
+  /* Styles for devices with a maximum width of 600px */
+@media (max-width: 1024px) {
+
+    body{
+     font-size: 16px;
+     padding: 10px;
+     width: 100%;
+
+    
+
+   }
+
+   #contacts{
+       display: contents;
+       font-size:small;
+       
+   }
+
+
+   #flex-container2{
+       font-size: x-small;
+   }
+
+  #name{
+   font-size: large;
+   text-align: center;
+  }
+
+  #header{
+   clear: both;
+   width: 100%;
+  }
+
+  #menu{
+   font-size: small;
+   display:none;
+
+  }
+
+  #tag{
+   font-size: large;
+   position: relative;
+   left: 235px;
+  }
+
+  #container{
+   border-style: none;
+   float: none;
+   background-color: bisque;
+   display: grid, none;
+   
+  }
+
+  #enquiry{
+   display: flex;
+  }
+
+  hr{
+   display: none;
+  }
+
+  #grid-container{
+   display: contents;
+   
+
+  }
+
+  img{
+   position: static;
+   top: 50px;
+   
+  }
+
+  a{
+   color: #3450cc;
+  }
+
+  #self{
+   font-size: small;
+   position: relative;
+   bottom: 150px;
+  }
+
+
+
+  
+ }
